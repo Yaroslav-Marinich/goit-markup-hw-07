@@ -1,4 +1,4 @@
-.features-title {
+.cards__title {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -7,22 +7,22 @@
   margin-bottom: 10px;
 }
 
-.features-list {
+.cards__list {
   display: flex;
   gap: 30px;
 }
 
-.features-item {
+.cards__item {
   display: block;
   max-width: 270px;
 }
 
-.features-text {
+.cards__text {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.features-icon-container {
+.cards__icon-container {
   height: 120px;
   margin-bottom: 30px;
   display: flex;

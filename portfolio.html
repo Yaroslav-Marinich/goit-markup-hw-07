@@ -17,38 +17,38 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio-page.min.css" />
     <title>Web Studio</title>
   </head>
   <body>
     <header class="header">
       <div class="container nav">
-        <nav class="nav">
-          <a class="nav-logo" href="./index.html"
-            ><span class="main-logo">Web</span><span class="first-logo">Studio</span></a
+        <nav class="nav__menu">
+          <a class="logo" href="./index.html"
+            ><span class="logo--main">Web</span><span class="logo--dark">Studio</span></a
           >
-          <ul class="nav-list list">
-            <li class="nav-item">
-              <a class="nav-link link" href="./index.html">Студія</a>
+          <ul class="nav__main-list list">
+            <li class="nav__main-item">
+              <a class="nav__main-link link" href="./index.html">Студія</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link link current" href="./portfolio.html">Портфоліо</a>
+            <li class="nav__main-item">
+              <a class="nav__main-link link current" href="./portfolio.html">Портфоліо</a>
             </li>
-            <li class="nav-item"><a class="nav-link link" href="">Контакти</a></li>
+            <li class="nav__main-item"><a class="nav__main-link link" href="">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contact-list list">
-          <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com">
-              <svg class="contact-icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>info@devstudio.com
-              </a>
+        <ul class="nav__contact-list list">
+          <li class="nav__contact-item">
+            <a class="nav__contact-link link" href="mailto:info@devstudio.com">
+              <svg class="nav__contact-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use></svg>info@devstudio.com</a
+            >
           </li>
-          <li class="contact-item">
-            <a class="contact-link link" href="tel:+380961111111">
-              <svg class="contact-icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
+          <li class="nav__contact-item">
+            <a class="nav__contact-link link" href="tel:+380961111111">
+              <svg class="nav__contact-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -71,20 +71,25 @@
           </ul>
           <ul class="content-list list">
             <li class="content-item">
-                <a
+              <a
                 href=""
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img class="img" src="./images/technocrack.jpg" alt="Веб-сайт Технокряк" />
-                <p class="content-top-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  <p class="content-top-text">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                    приватну особу.
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Технокряк</h2>
                   <p class="content-text">Веб-сайт</p>
-                </div></a>
+                </div></a
+              >
             </li>
             <li class="content-item">
               <a
@@ -92,14 +97,20 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img
-                  class="img"
-                  src="./images/poster.jpg"
-                  alt=" Дизайн постеру до баскетбольного матчу"
-                />
-                <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus vitae quasi accusamus necessitatibus quo dignissimos nisi assumenda eos, dolores possimus qui consectetur labore similique, ducimus ad voluptate reprehenderit odit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus vitae quasi accusamus necessitatibus quo dignissimos nisi assumenda eos, dolores possimus qui consectetur labore similique, ducimus ad voluptate reprehenderit odit.</p>
+                    class="img"
+                    src="./images/poster.jpg"
+                    alt=" Дизайн постеру до баскетбольного матчу"
+                  />
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia minus vitae quasi
+                    accusamus necessitatibus quo dignissimos nisi assumenda eos, dolores possimus
+                    qui consectetur labore similique, ducimus ad voluptate reprehenderit odit.Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. fdgbdfbdfbdbdbdbdtbdbdb
+                    drgdrgdrgdrgdr drgdrgdrgdr drgdrgdrgdrgdrg
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Постер <span lang="en">Orlean vs Golden Star</span></h2>
@@ -114,14 +125,18 @@
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
               >
-              <div class="content-top-wrap">
-                <img
-                class="img"
-                src="./images/seafood.jpg"
-                alt="Додаток ресторану морської кухні"
-              />
-              <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore eius corporis, eum vel aut voluptates, inventore sit ullam deserunt quidem pariatur sunt possimus aspernatur dolore asperiores nesciunt. Quisquam, sit?</p>
-              </div>
+                <div class="content-top-wrap">
+                  <img
+                    class="img"
+                    src="./images/seafood.jpg"
+                    alt="Додаток ресторану морської кухні"
+                  />
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum tempore eius
+                    corporis, eum vel aut voluptates, inventore sit ullam deserunt quidem pariatur
+                    sunt possimus aspernatur dolore asperiores nesciunt. Quisquam, sit?
+                  </p>
+                </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Ресторан <span lang="en">Seafood</span></h2>
                   <p class="content-text">Додаток</p>
@@ -134,10 +149,14 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img class="img" src="./images/prime.jpg" alt="Маркетинговий проект Прайм" />
-                <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia nemo recusandae aliquid pariatur provident distinctio. Cum repellat voluptatibus minus iste veniam, incidunt ut corrupti officiis quisquam maiores commodi quod.</p>
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos mollitia nemo
+                    recusandae aliquid pariatur provident distinctio. Cum repellat voluptatibus
+                    minus iste veniam, incidunt ut corrupti officiis quisquam maiores commodi quod.
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Проєкт <span lang="en">Prime</span></h2>
@@ -151,10 +170,14 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img class="img" src="./images/boxes.jpg" alt=" Додаток до проекту Boxes" />
-                <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem, necessitatibus autem aliquid perferendis commodi obcaecati vitae asperiores esse nostrum maiores explicabo fuga aspernatur sequi sunt eos eveniet corrupti quis!</p>
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem exercitationem,
+                    necessitatibus autem aliquid perferendis commodi obcaecati vitae asperiores esse
+                    nostrum maiores explicabo fuga aspernatur sequi sunt eos eveniet corrupti quis!
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Проєкт <span lang="en">Boxes</span></h2>
@@ -168,14 +191,18 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img
-                  class="img"
-                  src="./images/no_borders.jpg"
-                  alt="Веб-сайт Натхнення немає кордонів"
-                />
-                <p class="content-top-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, officiis nesciunt molestias necessitatibus soluta illo, natus ea quaerat magnam iusto numquam veniam neque sunt eveniet error beatae commodi ab quos.</p>
+                    class="img"
+                    src="./images/no_borders.jpg"
+                    alt="Веб-сайт Натхнення немає кордонів"
+                  />
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, officiis
+                    nesciunt molestias necessitatibus soluta illo, natus ea quaerat magnam iusto
+                    numquam veniam neque sunt eveniet error beatae commodi ab quos.
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title" lang="en">Inspiration has no Borders</h2>
@@ -189,10 +216,18 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
-                  <img class="img" src="./images/limited.jpg" alt="Дизайн видання Limited Edition" />
-                <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione quia numquam eos error labore eum culpa magnam tenetur reiciendis veritatis atque quis, aliquam totam sint quod beatae ab quo.</p>
+                  <img
+                    class="img"
+                    src="./images/limited.jpg"
+                    alt="Дизайн видання Limited Edition"
+                  />
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione quia
+                    numquam eos error labore eum culpa magnam tenetur reiciendis veritatis atque
+                    quis, aliquam totam sint quod beatae ab quo.
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Видання <span lang="en">Limited Edition</span></h2>
@@ -206,10 +241,14 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
-                >
+              >
                 <div class="content-top-wrap">
                   <img class="img" src="./images/lab.jpg" alt="Проект Label Tag" />
-                <p class="content-top-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam eaque a quasi ducimus, repellendus adipisci aliquam distinctio ut itaque, quo impedit reprehenderit dolores deserunt sunt temporibus veritatis blanditiis esse id.</p>
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam eaque a quasi
+                    ducimus, repellendus adipisci aliquam distinctio ut itaque, quo impedit
+                    reprehenderit dolores deserunt sunt temporibus veritatis blanditiis esse id.
+                  </p>
                 </div>
                 <div class="content-wrap">
                   <h2 class="content-title">Проєкт <span lang="en">LAB</span></h2>
@@ -224,14 +263,18 @@
                 rel="noopener noreferrer nofollow"
                 class="content-link link"
               >
-              <div class="content-top-wrap">
-                <img
-                class="img"
-                src="./images/growing_business.jpg"
-                alt="Додаток для просування бізнесу"
-              />
-              <p class="content-top-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sit cumque amet inventore, aspernatur mollitia soluta unde obcaecati nesciunt qui debitis, consequuntur eos in ipsa quia minus deleniti recusandae. Doloribus!</p>
-              </div>
+                <div class="content-top-wrap">
+                  <img
+                    class="img"
+                    src="./images/growing_business.jpg"
+                    alt="Додаток для просування бізнесу"
+                  />
+                  <p class="content-top-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sit cumque amet
+                    inventore, aspernatur mollitia soluta unde obcaecati nesciunt qui debitis,
+                    consequuntur eos in ipsa quia minus deleniti recusandae. Doloribus!
+                  </p>
+                </div>
                 <div class="content-wrap">
                   <h2 class="content-title" lang="en">Growing Business</h2>
                   <p class="content-text">Додаток</p>
@@ -244,16 +287,16 @@
     </main>
     <!-- footer -->
     <footer class="footer">
-      <div class="container footer-list">
-        <div class="address">
-          <a class="footer-logo" href="./index.html"
-            ><span class="main-logo">Web</span><span class="second-logo">Studio</span></a
+      <div class="container footer_menu">
+        <div class="footer__address">
+          <a class="logo" href="./index.html"
+            ><span class="logo--main">Web</span><span class="logo--light">Studio</span></a
           >
           <address class="contacts">
-            <ul class="address-list list">
-              <li class="address-item">
+            <ul class="contacts-list list">
+              <li class="contacts-item">
                 <a
-                  class="address-content link"
+                  class="contacts-content link"
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
@@ -261,67 +304,61 @@
                   м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="address-item">
-                <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <li class="contacts-item">
+                <a class="contacts-link link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="address-item">
-                <a class="address-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+              <li class="contacts-item">
+                <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="footer-soc">
-          <h2 class="footer-soc-title">приєднуйтесь</h2>
-          <ul class="footer-soc-list list">
-            <li class="footer-soc-item">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="footer-soc-link link"
-              >
-                <svg class="footer-soc-icon" width="20" height="20">
+        <div class="soc">
+          <h2 class="footer__title">приєднуйтесь</h2>
+          <ul class="soc__list list">
+            <li class="soc__item">
+              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link">
+                <svg class="soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="footer-soc-link link"
-              >
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="soc__item">
+              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link">
+                <svg class="soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="footer-soc-link link"
-              >
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="soc__item">
+              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link">
+                <svg class="soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="footer-soc-item">
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer nofollow"
-                class="footer-soc-link link"
-              >
-                <svg class="footer-soc-icon" width="20" height="20">
+            <li class="soc__item">
+              <a href="" target="_blank" rel="noopener noreferrer nofollow" class="soc__link link">
+                <svg class="soc__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer__email">
+          <h2 class="footer__title">Підпишіться на розсилку</h2>
+          <form class="email">
+            <input type="email" name="user-email" class="email__input" placeholder="E-mail" />
+            <button type="submit" class="button email__btn">
+              Підписатися
+              <svg class="email__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
